@@ -16,7 +16,9 @@ class RestfulExampleUrlsResource__1_1 extends RestfulExampleUrlsResource {
     $public_fields['options'] = array(
       'property' => 'field_options',
     );
-
+    $public_fields['url'] = array(
+      'property' => 'field_url',
+    );
     $public_fields['random-int'] = array(
       'callback' => 'static::randomNumber',
     );
